@@ -1,5 +1,5 @@
 import { Canvas } from "@react-three/fiber";
-import { Suspense,useState } from "react";
+import { Suspense, useState } from "react";
 import Loader from "../components/Loader";
 
 import Bird from "../models/Bird";
@@ -9,6 +9,7 @@ import Island from "../models/Island";
 
 const Home = () => {
 	const [isRotating, setIsRotating] = useState(false);
+	const [currentStage, setCurrentStage] = useState(1);
 
 	const adjustIslandForScreensSize = () => {
 		let screenScale = null;
@@ -55,13 +56,14 @@ const Home = () => {
 					<hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1}/>
 
 					<Bird/>
-					<Sky/>
+					<Sky isRotating={isRotating}/>
 					<Island
 						position={islandPosition}
 						scale={islandScale}
 						rotation={islandRotation}
 						isRotating={isRotating}
 						setIsRotating={setIsRotating}
+						setCurrentStage={setCurrentStage}
 					/>
 					<Plane
 					isRotating={isRotating}
