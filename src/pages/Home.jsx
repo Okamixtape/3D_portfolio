@@ -2,6 +2,8 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useState, useEffect, useRef } from "react";
 import Loader from "../components/Loader";
 
+import Footer from "../components/Footer";
+
 import Bird from "../models/Bird";
 import Plane from "../models/Plane";
 import Sky from "../models/Sky";
@@ -100,13 +102,16 @@ const Home = () => {
 				</Suspense>
 			</Canvas>
 
-			<div className="absolute bottom-2 left-2">
+			<div className="absolute bottom-14 left-10">
 				<img
 					src={!isPlayingMusic ? soundoff : soundon}
 					alt="sound"
 					className="w-10 h-10 cursor-pointer object-contain"
 					onClick={() => setIsPlayingMusic(!isPlayingMusic)}/>
 			</div>
+
+			<Footer />
+
 		</section>
 	);
 };

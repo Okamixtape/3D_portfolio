@@ -59,7 +59,7 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .footer-container {
-    @apply flex flex-wrap gap-7 items-center justify-between;
+    @apply flex flex-wrap gap-3 items-center justify-between;
   }
 
   .info-box {
@@ -180,4 +180,15 @@ body:has(.card[data-color="green"]:hover) {
   border: #fff;
   box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 1rem;
 }

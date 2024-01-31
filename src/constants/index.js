@@ -1,19 +1,19 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { arneo, lotion1, lotion2, tesla } from "../assets/images";
 import {
     car,
     contact,
     css,
     estate,
     express,
+	figma,
     git,
     github,
     html,
     javascript,
+	jira,
     linkedin,
     mongodb,
-    motion,
     mui,
-    nextjs,
     nodejs,
     pricewise,
     react,
@@ -28,69 +28,14 @@ import {
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
         imageUrl: html,
         name: "HTML",
         type: "Frontend",
     },
     {
-        imageUrl: javascript,
-        name: "JavaScript",
+        imageUrl: css,
+        name: "CSS",
         type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
     },
     {
         imageUrl: sass,
@@ -103,65 +48,159 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    {
+        imageUrl: redux,
+        name: "Redux",
+        type: "State Management",
+    },
+    {
+        imageUrl: figma,
+        name: "Figma",
+        type: "Design",
+    },
+    {
+        imageUrl: mui,
+        name: "Material-UI",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+    {
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
+    },
+	{
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    },
+    {
+        imageUrl: jira,
+        name: "Jira",
+        type: "Project Management",
     }
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+		company_name: "Skincare brand website",
+        icon: lotion1,
+        iconBg: "#f4e5f0",
+		points: [
+			"Led bilingual website translations and UI/UX enhancements for German and French versions, enhancing user navigation and experience.",
+			"Implemented responsive design using advanced CSS, optimizing mobile user experience.",
+			"Developed javascript based tooltip dynamics and integrated cookie management scripts, improving website accessibility and compliance."
+		],
+    },
+    {
+        company_name: "Skincare brand landing page",
+        icon: lotion2,
+        iconBg: "#e4ebf6",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+			"Led the implementation of bilingual landing page adaptations, focusing on responsive design for every language version.",
+			"Managed the integration and deployment of the project across multiple environments, coordinating with team members for efficient execution.",
+			"Conducted comprehensive landing page audits, including Google Lighthouse, to optimize performance and user experience across various browsers.",
+			"Ensured legal and SEO compliance, integrating cookie management solutions and handling W3C code validation.",
+			"Streamlined content generation and management processes, focusing on multilingual support and accessibility standards."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        company_name: "Skincare brand digital sales application",
         icon: tesla,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+			"Optimized script configurations and environment variables for effective build process alignment.",
+			"Managed version control and environment setup, ensuring up-to-date configurations for continuous integration.",
+			"Executed development sprints for a digital sales catalogue, coordinating closely with designers on Figma feedback integration.",
+			"Managed product content using JIRA for project documentation and task tracking.",
+			"Focused on responsive design with an emphasis on interactive elements and buttons.",
+		]
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        company_name: "Vehicle rental site redesign",
+        icon: tesla,
+        iconBg: "#fbc3bc",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+			"Implemented and refined UI elements such as sliders and icon.",
+			"Managed icon naming conventions and integration, ensuring consistency across the application.",
+			"Participated in the design and development process, using Figma for collaborative feedback and JIRA for project management.",
+		]
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        company_name: "Car manufacturer KPI dashboard application",
+        icon: tesla,
+        iconBg: "#fbc3bc",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+			"Conducted comprehensive Cypress testing, focusing on listing all user stories in a structured format for efficient tracking and execution.",
+			"Implemented detailed test scenarios for UI components, ensuring proper display and functionality of elements such as filters, funnels, and widgets.",
+			"Participated in the code refactor process, aiming for cleaner code by organizing and identifying elements with data-testIds.",
+			"Developed and validated user stories for key application features, including account creation, login, and password recovery, to ensure a seamless user experience."
+		]
     },
+    {
+        company_name: "Sport gym reservation website",
+        icon: tesla,
+        iconBg: "#fbc3bc",
+        points: [
+			"Developed content management features using WordPress to enhance the website's flexibility.",
+			"Implemented new website blocks, including interactive elements like reviews and offers.",
+			"Ensured responsive design for a seamless user experience on both desktop and mobile devices.",
+			"Created dynamic and responsive offer cards and incorporated a Swiper slider with pagination and navigation."
+		]
+    },
+    {
+        company_name: "Burger restaurant chain website",
+        icon: tesla,
+        iconBg: "#fbc3bc",
+        points: [
+			"Implemented conditional handling based on different restaurant services.",
+			"Configured API keys for Google Maps and collaborated effectively with development and DevOps teams for seamless integration.",
+			"Conducted thorough email testing to validate links, ensuring correct redirection.",
+			"Implemented responsive design principles for different pages, optimizing background images, and suitable font styles for text content.",
+			"Integrated YouTube videos with custom styling and enhanced player buttons, providing an engaging multimedia experience for users.",
+			"Managed menu and page configurations efficiently within the Back-Office system and followed best practices for version control, including pull requests and deployments."
+		]
+    },
+    {
+        company_name: "JS13K / JavaScript coding competition",
+        icon: tesla,
+        iconBg: "#fbc3bc",
+        points: [
+			"Customized UI elements like CTA and tutorial cards for improved visual appeal, focusing on user engagement.",
+			"Optimized game graphics, balancing between PNG and SVG formats for minimal file size.",
+			"Constructed game components adhering to class naming conventions and utilized static JSON arrays for efficient data management.",
+			"Implemented core game mechanics including a scoring system, countdown timer, and game variable initialization.",
+			"Designed and developed game UI, including start/end screens and interactive gameplay elements to enhance player challenge."
+		]
+    }
 ];
 
 export const socialLinks = [
@@ -173,12 +212,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Okamixtape',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/loup-aubour-front-end-dev',
     }
 ];
 

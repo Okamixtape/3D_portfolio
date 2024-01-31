@@ -15,16 +15,14 @@ const About = () => {
 				Hello, I'm{" "}
 				<span className="blue-gradient_text font-semibold drop-shadow">
 					{" "}
-					Adrian
+					Loup
 				</span>{" "}
 				👋
 			</h1>
 
 			<div className="mt-5 flex flex-col gap-3 text-slate-500">
 				<p>
-					Software Engineer based in Croatia, specializing in
-					technical education through hands-on learning and building
-					applications.
+					I'm a front-end developer based in Paris <br />and I'm aspiring to become an expert in the field of web application development.
 				</p>
 			</div>
 
@@ -51,18 +49,21 @@ const About = () => {
 			</div>
 
 			<div className="py-16">
-				<h3 className="subhead-text">Work Experience.</h3>
-				<div className="mt-5 flex flex-col gap-3 text-slate-500">
+				<h3 className="subhead-text">Work Experience</h3>
+				<div className="mt-5 flex flex-col gap-3 text-slate-600">
 					<p>
-						I've worked with all sorts of companies, leveling up my
-						skills and teaming up with smart people. Here's the
-						rundown:
+					In my two-year contract as a front-end developer at a French digital agency,
+					I refined my skills in web technologies through a variety of challenging projects.
+					Collaborating with a team of skilled professionals,
+					I contributed to innovative web solutions and enhanced user interfaces.
+					<br />
+					<br />Here's an overview of some key projects :
 					</p>
 				</div>
 
 				<div className="mt-12 flex">
 					<VerticalTimeline>
-						{experiences.map((experience, index) => (
+						{experiences.map((experience) => (
 							<VerticalTimelineElement
 								key={experience.company_name}
 								date={experience.date}
@@ -99,7 +100,7 @@ const About = () => {
 									{experience.points.map((point, index) => (
 										<li
 											key={`experience-point-${index}`}
-											className="text-black-500/50 font-normal pl-1 text-sm"
+											className="text-black-500 font-normal pl-1 text-sm"
 										>
 											{point}
 										</li>
