@@ -15,12 +15,14 @@ const Projects = () => {
 			</h1>
 
 			<p className="text-slate-500 mt-2 leading-relaxed">
-				I've embarked on numerous projects throughout the years, but
-				these are the ones I hold closest to my heart. Many of them are
-				open-source, so if you come across something that piques your
-				interest, feel free to explore the codebase and contribute your
-				ideas for further enhancements. Your collaboration is highly
-				valued!
+			Over the years, I have dedicated my time and effort to a variety of projects,
+			each with its unique challenges and learnings. Below, you will find a selection of projects that are particularly significant to me.
+			Many of these initiatives are open-source, reflecting my commitment to collaborative and community-driven development.
+			Should any of these projects spark your interest, I warmly encourage you to delve into the codebase ! <br/>
+			<br/>
+			Contributions, suggestions, and discussions are always welcome, as they foster further development and learning.
+			This collection includes both academic and self-driven projects, showcasing a range of skills and interests.
+			Your engagement and collaboration in this journey are greatly appreciated !
 			</p>
 
 			<div className="flex flex-wrap my-20 gap-16">

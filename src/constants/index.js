@@ -1,4 +1,4 @@
-import { arneo, lotion1, lotion2, tesla } from "../assets/images";
+import { burger, calendar, dashboardApplication, deliveryTruck, digitalApplication, game, landingPage, lotion1 } from "../assets/images";
 import {
     car,
     contact,
@@ -122,8 +122,8 @@ export const experiences = [
     },
     {
         company_name: "Skincare brand landing page",
-        icon: lotion2,
-        iconBg: "#e4ebf6",
+        icon: landingPage,
+        iconBg: "#e0f9fe",
         points: [
 			"Led the implementation of bilingual landing page adaptations, focusing on responsive design for every language version.",
 			"Managed the integration and deployment of the project across multiple environments, coordinating with team members for efficient execution.",
@@ -134,8 +134,8 @@ export const experiences = [
     },
     {
         company_name: "Skincare brand digital sales application",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: digitalApplication,
+        iconBg: "#fdf8dd",
         points: [
 			"Optimized script configurations and environment variables for effective build process alignment.",
 			"Managed version control and environment setup, ensuring up-to-date configurations for continuous integration.",
@@ -145,9 +145,9 @@ export const experiences = [
 		]
     },
     {
-        company_name: "Vehicle rental site redesign",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        company_name: "Vehicle rental website redesign",
+        icon: deliveryTruck,
+        iconBg: "#d1ead2",
         points: [
 			"Implemented and refined UI elements such as sliders and icon.",
 			"Managed icon naming conventions and integration, ensuring consistency across the application.",
@@ -156,8 +156,8 @@ export const experiences = [
     },
     {
         company_name: "Car manufacturer KPI dashboard application",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: dashboardApplication,
+        iconBg: "#ffe4b2",
         points: [
 			"Conducted comprehensive Cypress testing, focusing on listing all user stories in a structured format for efficient tracking and execution.",
 			"Implemented detailed test scenarios for UI components, ensuring proper display and functionality of elements such as filters, funnels, and widgets.",
@@ -167,19 +167,19 @@ export const experiences = [
     },
     {
         company_name: "Sport gym reservation website",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: calendar,
+        iconBg: "#ffcccc",
         points: [
 			"Developed content management features using WordPress to enhance the website's flexibility.",
 			"Implemented new website blocks, including interactive elements like reviews and offers.",
 			"Ensured responsive design for a seamless user experience on both desktop and mobile devices.",
-			"Created dynamic and responsive offer cards and incorporated a Swiper slider with pagination and navigation."
+			"Created dynamic and responsive offer cards and incorporated a slider with pagination and navigation."
 		]
     },
     {
         company_name: "Burger restaurant chain website",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: burger,
+        iconBg: "#edd4d4",
         points: [
 			"Implemented conditional handling based on different restaurant services.",
 			"Configured API keys for Google Maps and collaborated effectively with development and DevOps teams for seamless integration.",
@@ -191,8 +191,8 @@ export const experiences = [
     },
     {
         company_name: "JS13K / JavaScript coding competition",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: game,
+        iconBg: "#f9e7be",
         points: [
 			"Customized UI elements like CTA and tutorial cards for improved visual appeal, focusing on user engagement.",
 			"Optimized game graphics, balancing between PNG and SVG formats for minimal file size.",
@@ -235,33 +235,5 @@ export const projects = [
         name: 'Full Stack Threads Clone',
         description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
         link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
