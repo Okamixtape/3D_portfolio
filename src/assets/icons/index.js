@@ -1,11 +1,13 @@
 import css from './css.svg'
 import express from './express.svg'
 import figma from './figma.svg'
+import gameOn from './gameOn.svg'
 import git from './git.svg'
 import github from './github.svg'
 import html from './html.svg'
 import javascript from './javascript.svg'
 import jira from './jira.svg'
+import kasa from './kasa.svg'
 import mongodb from './mongodb.svg'
 import motion from './motion.svg'
 import mui from './mui.svg'
@@ -33,11 +35,13 @@ export {
     css,
     express,
 	figma,
+	gameOn,
     git,
     github,
     html,
     javascript,
 	jira,
+	kasa,
     mongodb,
     motion,
     mui,

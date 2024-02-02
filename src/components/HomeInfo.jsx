@@ -28,7 +28,7 @@ const renderContent = {
 	),
 	3: (
 		<InfoBox
-			text="Led mutiple projects to success over the years. Curious about the impact ?"
+			text="Achieved numerous projects over the years. Curious about it ?"
 			link="/projects"
 			btnText={"Visit my portfolio"}
 		/>
