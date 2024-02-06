@@ -215,11 +215,6 @@ export const experiences = [
 
 export const socialLinks = [
 	{
-		name: "Contact",
-		iconUrl: contact,
-		link: "https://okamixtape.github.io/3D_portfolio/contact",
-	},
-	{
 		name: "GitHub",
 		iconUrl: github,
 		link: "https://github.com/Okamixtape",

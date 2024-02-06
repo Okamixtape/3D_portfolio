@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+import ContactLink from "./ContactLink";
 import { socialLinks } from "../constants";
 
 const Footer = () => {
@@ -13,6 +14,7 @@ const Footer = () => {
 				</p>
 
 				<div className="flex gap-3 justify-center items-center">
+					<ContactLink />
 					{socialLinks.map((link) => (
 						<Link key={link.name} to={link.link} target="_blank">
 							<img
