@@ -217,7 +217,7 @@ export const socialLinks = [
 	{
 		name: "Contact",
 		iconUrl: contact,
-		link: "/contact",
+		link: "https://okamixtape.github.io/3D_portfolio/contact",
 	},
 	{
 		name: "GitHub",
