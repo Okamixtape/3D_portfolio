@@ -35,6 +35,7 @@ const Contact = () => {
 					to_name: "Loup",
 					from_email: form.email,
 					to_email: "loup.aubour@gmail.com",
+					reply_to: form.email,
 					message: form.message,
 				},
 				import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -77,7 +78,7 @@ const Contact = () => {
 			{alert.show && <Alert {...alert} />}
 
 			<div className="flex-1 min-w-[50%] flex flex-col">
-				<h1 className="head-text">Get in Touch</h1>
+				<h1 className="head-text">Let's get in touch !</h1>
 
 				<form
 					ref={formRef}
