@@ -15,6 +15,7 @@ import {
 	gameOn,
 	express,
 	figma,
+	fishEye,
 	git,
 	github,
 	html,
@@ -247,4 +248,12 @@ export const projects = [
 			"Completed the JavaScript code for a landing page form. Added confirmation on successful submission, validation/error messages, and implemented form entries.",
 		link: "https://okamixtape.github.io/GameOn-website-FR/starterOnly/index.html",
 	},
+	{
+		iconUrl: fishEye,
+		theme: "btn-back-yellow",
+		name: "Accessible Photo Platform",
+		description:
+			"Implemented accessibility enhancements for the photo platform, including keyboard navigation improvements, ARIA roles, and semantic HTML markup. Ensured that the website meets WCAG (Web Content Accessibility Guidelines) standards, making it usable for all users, including those with disabilities.",
+		link: "https://okamixtape.github.io/Front-End-Fisheye/",
+	}
 ];

@@ -1,6 +1,7 @@
 import css from './css.svg'
 import express from './express.svg'
 import figma from './figma.svg'
+import fishEye from './fishEye.svg'
 import gameOn from './gameOn.svg'
 import git from './git.svg'
 import github from './github.svg'
@@ -35,6 +36,7 @@ export {
     css,
     express,
 	figma,
+	fishEye,
 	gameOn,
     git,
     github,
