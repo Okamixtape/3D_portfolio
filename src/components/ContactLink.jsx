@@ -4,7 +4,7 @@ import contact from "../assets/icons/contact.svg";
 const ContactLink = () => {
 	return (
 		<section className="contactLink">
-			<Link key="Contact" to="/contact" target="_blank">
+			<Link key="Contact" to="/contact">
 				<img
 					src={contact}
 					alt="Contact"
