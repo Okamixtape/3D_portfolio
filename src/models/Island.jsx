@@ -40,6 +40,12 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
 		if (isRotating) {
 			const clientX = e.touches ? e.touches[0].clientX : e.clientX;
 
+			// if (clientX - lastX.current > 0) {
+			// 	console.log("right");
+			// } else {
+			// 	console.log("left");
+			// }
+
 			const delta = (clientX - lastX.current) / viewport.width;
 
 			islandRef.current.rotation.y += delta * 0.01 * Math.PI;

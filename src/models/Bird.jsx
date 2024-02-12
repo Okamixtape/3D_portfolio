@@ -22,7 +22,7 @@ export function Bird() {
 
 	useFrame(({ clock, camera }) => {
 		// Update the Y position to simulate bird-like motion using a sine wave
-		birdRef.current.position.y = Math.sin(clock.elapsedTime) * 0.5 + 3;
+		birdRef.current.position.y = Math.sin(clock.elapsedTime) * 0.3 + 3;
 
 		// Check if the bird reached a certain endpoint relative to the camera
 		if (birdRef.current.position.x > camera.position.x + 10) {
