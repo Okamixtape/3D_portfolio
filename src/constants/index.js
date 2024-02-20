@@ -129,6 +129,8 @@ export const experiences = [
 			"Implemented responsive design using advanced CSS, optimizing mobile user experience.",
 			"Developed javascript based tooltip dynamics and integrated cookie management scripts, improving website accessibility and compliance.",
 		],
+		link: "https://www.aderma.fr/fr-fr",
+		linkText: "Visit website",
 	},
 	{
 		company_name: "Skincare brand landing page",
@@ -141,6 +143,8 @@ export const experiences = [
 			"Ensured legal and SEO compliance, integrating cookie management solutions and handling W3C code validation.",
 			"Streamlined content generation and management processes, focusing on multilingual support and accessibility standards.",
 		],
+		link: "https://keratose-actinique.pierre-fabre.com/",
+		linkText: "Visit website",
 	},
 	{
 		company_name: "Skincare brand digital sales application",
@@ -163,6 +167,8 @@ export const experiences = [
 			"Managed icon naming conventions and integration, ensuring consistency across the application.",
 			"Participated in the design and development process, using Figma for collaborative feedback and JIRA for project management.",
 		],
+		link: "https://www.fraikin.fr/fr",
+		linkText: "Visit website",
 	},
 	{
 		company_name: "Car manufacturer KPI dashboard application",
@@ -198,6 +204,8 @@ export const experiences = [
 			"Integrated YouTube videos with custom styling and enhanced player buttons, providing an engaging multimedia experience for users.",
 			"Managed menu and page configurations efficiently within the Back-Office system and followed best practices for version control, including pull requests and deployments.",
 		],
+		link: "https://www.quick.fr/",
+		linkText: "Visit website",
 	},
 	{
 		company_name: "JS13K / JavaScript coding competition",
@@ -210,6 +218,8 @@ export const experiences = [
 			"Implemented core game mechanics including a scoring system, countdown timer, and game variable initialization.",
 			"Designed and developed game UI, including start/end screens and interactive gameplay elements to enhance player challenge.",
 		],
+		link: "https://js13kgames.com/games/tindeath/index.html",
+		linkText: "Visit website",
 	},
 ];
 

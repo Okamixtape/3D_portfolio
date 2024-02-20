@@ -106,6 +106,18 @@ const About = () => {
 										</li>
 									))}
 								</ul>
+
+								<div className="flex justify-center">
+									<a
+										href={experience.link}
+										target="_blank"
+										rel="noreferrer"
+										className="text-blue-600 font-semibold"
+									>
+										{experience.linkText}
+									</a>
+								</div>
+
 							</VerticalTimelineElement>
 						))}
 					</VerticalTimeline>
